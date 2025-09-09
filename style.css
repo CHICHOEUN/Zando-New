@@ -21,11 +21,12 @@ ul {
 
 .navigation {
   width: 100%;
-  background-color: #eee;
+  background-color: #c5bbbbb8;
   position: sticky;/*menuនៅលើគេ*/
   top: 0; /*menuនៅលើគេ*/
   z-index: 100; /*menuនៅលើគេ*/
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  backdrop-filter: blur(20px); /*menu ព្រិលៗ*/
 }
 .container-width {
   width: 90%;
