@@ -21,8 +21,10 @@ ul {
 
 .navigation {
   width: 100%;
-
   background-color: #eee;
+  position: sticky;/*menuនៅលើគេ*/
+  top: 0; /*menuនៅលើគេ*/
+  z-index: 100; /*menuនៅលើគេ*/
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 .container-width {
@@ -312,6 +314,7 @@ ul {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-weight: bold;
+  font-size: 15px;
 }
 .footer {
   height: 250px;
@@ -365,8 +368,6 @@ ul {
 
 .footer::after{
   content: "";
-  /* display: block;
-  clear: both; */
   width: 100%;
   height: 2px;
   background-color: gray;
